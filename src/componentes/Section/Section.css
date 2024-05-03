@@ -1,0 +1,31 @@
+
+.section {
+  background-color: #181818;
+  margin-top: 105em;
+  margin-left: 10em;
+  padding: 2em;
+  width: 25em;
+  height: 4em;
+}
+
+section ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between; 
+}
+
+
+.section a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.section a:nth-child(1) svg {
+  color: #c7ddb8;
+  font-size: 55px;
+}
+
+
+

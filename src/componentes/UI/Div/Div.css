@@ -1,0 +1,29 @@
+/* Div.css */
+
+/* Estilos para el contenedor principal */
+.header-container {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 5em;  
+    margin-top: 35em;
+}
+
+h2 {
+    margin-left: 3em;
+    margin-top: -67px;
+    font-size: 45px;
+}
+  
+  .e {
+    width: 100px; 
+    height: auto; 
+    margin-right: 45em;
+    top: -75px;
+  }
+  
+  .line {
+    border: none;
+    border-top: 12px solid #98ff8a;
+    margin-top: -45px;
+  }
+  

@@ -1,0 +1,43 @@
+
+.P-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 45em;
+  height: 130em;
+  width: 45em;
+  background-color: #39a900;
+}
+
+#main-container {
+  margin-bottom: 20px;
+}
+#Photo{
+  border-radius: 45em;
+  margin-top: -77em;
+  height: 34em;
+
+}
+
+#T {
+  margin-bottom: 10px;
+  color: azure;
+
+}
+
+#W {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 55em;
+  color: azure;
+ margin-top: -82em;
+ font-size: px;
+}
+
+#Logo {
+  margin-top: 10em;
+ 
+}
+

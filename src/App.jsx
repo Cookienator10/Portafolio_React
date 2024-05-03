@@ -1,14 +1,11 @@
-import React from 'react'
-import{Home} from'./components/Pages/Home/Home'
+import { Home } from './componentes/Pages/Home/Home.jsx'
 function App() {
+
   return (
-    <>
-    <Home/>
+    <>      
+      <Home />
     </>
   )
 }
-
-
-
 
 export default App
