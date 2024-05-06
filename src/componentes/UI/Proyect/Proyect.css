@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Alinea los elementos al principio */
+    align-items: center; /* Centra verticalmente los elementos */
+    padding: 5px;
+    margin-left: 4em;
+
+}
+
+.project {
+    height: 15em; 
+    width: calc(50% - 20px); 
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #39a900;
+    border-radius: 3em;
+}
+
+/* Ajuste para el margen de los elementos en el medio */
+.project:nth-child(2), .project:nth-child(3) {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* Estilos para el título dentro del proyecto */
+.project h3 {
+    color: #f1f1f1; /* Color oscuro para el texto del título */
+    margin-bottom: 10px;
+    margin-left: 18em;
+
+}
+
+/* Estilos para la imagen del proyecto */
+.project img {
+    width: 12em; /* Ancho completo para hacer la imagen responsiva */
+    height: auto; /* Altura automática para mantener la proporción */
+    margin-bottom: 10px;
+    margin-left: 1em;
+}
+
+/* Estilos para la descripción del proyecto */
+.project p {
+    color: #eeeaea; /* Gris oscuro para el texto */
+    line-height: 1.6;
+margin-left: 20em;
+margin-top: -8em;
+}
+
+.project a {
+    display: inline-block; /* Hace que el enlace sea un bloque en línea para permitir el padding */
+    padding: 10px 20px; /* Padding para hacer el enlace más clickeable */
+    color: rgb(233, 230, 230); /* Texto en color blanco */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados para el enlace */
+    margin-top: -10em; /* Espacio por encima del enlace */
+    margin-left: 18.5em;
+
+}
+

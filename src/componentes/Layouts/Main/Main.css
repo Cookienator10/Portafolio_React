@@ -9,7 +9,60 @@
  
 .d {
   font-size: 16px;
-  margin: 5px 0; /* Ajusta el margen superior e inferior del párrafo */
+  margin: 5px 0;
   color: black;
   margin-left: 5em;
 }
+
+
+.main-page > div:nth-child(2),
+.main-page > div:nth-child(4),
+.main-page > div:nth-child(6) {
+  margin-bottom: -535px; 
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  margin-left: 4em;
+  height: 14em;
+}
+
+.image-container div {
+  margin: 10px; 
+  text-align: center; 
+}
+
+.image-container img {
+  width: 100px; 
+  height: 100px; 
+}
+
+.image-container p {
+  margin-top: 5px; 
+  position: relative; 
+
+}
+
+
+.image-container p::after {
+  content: ''; 
+  position: absolute; 
+  left: 0;
+  top: -5px; 
+  width: 100%; 
+  height: 2px; 
+  background-color: #39a900;
+}
+
+.image-container p::before {
+  content: ''; 
+  position: absolute; 
+  left: 0; 
+  top: -8px; 
+  width: 100%; 
+  height: 2px;
+  background-color: #9ae475; 
+}
+/* actividad terminada */
+

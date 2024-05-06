@@ -1,0 +1,14 @@
+.references-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;  
+    margin-left: 5em;
+    right: 5em;
+  }
+  
+  .reference {
+    border: 4px solid #727171; 
+    width: 30%; 
+    margin-bottom: 20px; 
+  }
+  

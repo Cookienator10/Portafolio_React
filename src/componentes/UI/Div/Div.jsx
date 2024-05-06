@@ -1,15 +1,16 @@
-
 import React from 'react';
 import './Div.css';
 
-const Div = () => {
+const Div = ({ title, imgSrc = 'public/s.png', imgAlt = 'Default Image' }) => {
+  const imagePath = `/${imgSrc}`;
+
   return (
     <div className="header-container">
-      <h2></h2>
-      <img src="s.png" alt="s.png" className='e' /><h2>Perfil</h2>
+      <img src={imagePath} alt={imgAlt} className='e' />
+      <h2>{title}</h2>
       <hr className="line" />
     </div>
   );
 };
 
-export { Div }; 
+export { Div };
