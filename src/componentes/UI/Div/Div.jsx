@@ -1,7 +1,7 @@
 import React from 'react';
 import './Div.css';
 
-const Div = ({ title, imgSrc = 'public/s.png', imgAlt = 'Default Image' }) => {
+const Div = ({ title, imgSrc = 's.png', imgAlt = 'Default Image' }) => {
   const imagePath = `/${imgSrc}`;
 
   return (
