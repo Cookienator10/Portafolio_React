@@ -26,6 +26,7 @@
   justify-content: center; 
   margin-left: 4em;
   height: 14em;
+
 }
 
 .image-container div {
@@ -34,8 +35,9 @@
 }
 
 .image-container img {
-  width: 100px; 
-  height: 100px; 
+  width: 12em; 
+  height: 13em;
+  border-radius: 45em;
 }
 
 .image-container p {
@@ -64,5 +66,4 @@
   height: 2px;
   background-color: #9ae475; 
 }
-/* actividad terminada */
 
